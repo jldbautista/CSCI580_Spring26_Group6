@@ -69,12 +69,6 @@ The notebook is organized into the following sections:
 11. **Confusion Matrix and Performance Gap Analysis** — Visualizes detailed error patterns and compares MNIST vs. group performance.
 12. **Final Results Summary** — Prints overall accuracy statistics.
 
-## Results
-
-Our best model (Iteration 3) achieved:
-
-- **MNIST Test Accuracy:** 98.27%
-- **Group Images Accuracy:** 81.00% (243 / 300 correct)
 
 ## ProjectDataLoader Function
 
@@ -96,6 +90,6 @@ Returns:
 
 ## Notes
 
-- The model architecture is restricted to fully connected (Linear) layers only — no convolutional layers, per project requirements.
+- The model architecture is restricted to fully connected (Linear) layers only, no convolutional layers.
 - The notebook automatically detects and uses a GPU if one is available. Otherwise it falls back to CPU.
 - Results may vary slightly between runs due to random weight initialization, data shuffling, and dropout.
